@@ -1,7 +1,8 @@
 module "network" {
   source  = "Azure/network/azurerm"
-  version = "3.5.0"
+  version = "5.3.0"
   # insert the 2 required variables here
   resource_group_name = "springtime-azure"
-#   resource_group_location = "East US"
+  use_for_each = false
+  resource_group_location = "East US"
 }
