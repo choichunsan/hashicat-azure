@@ -3,5 +3,5 @@ module "network" {
   version = "3.5.0"
   # insert the 2 required variables here
   resource_group_name = "springtime"
-  resource_group_location = "springtime"
+  resource_group_location = "East US"
 }
